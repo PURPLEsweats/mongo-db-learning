@@ -1,0 +1,164 @@
+[2026-06-11 20:48:19] production.ERROR: Target class [App\Actions\GraphAction] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Actions\\GraphAction] does not exist. at /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php:914)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(795): Illuminate\\Container\\Container->build('App\\\\Actions\\\\Gra...')
+#1 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Actions\\\\Gra...', Array)
+#2 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Application.php(327): Illuminate\\Container\\Container->make('App\\\\Actions\\\\Gra...', Array)
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Actions\\\\Gra...')
+#4 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#5 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#6 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#7 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#8 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#10 /Users/rigby/repos/mongo-db-learning/public/index.php(5): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Actions\\GraphAction\" does not exist at /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php:912)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(912): ReflectionClass->__construct('App\\\\Actions\\\\Gra...')
+#1 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(795): Illuminate\\Container\\Container->build('App\\\\Actions\\\\Gra...')
+#2 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Actions\\\\Gra...', Array)
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Application.php(327): Illuminate\\Container\\Container->make('App\\\\Actions\\\\Gra...', Array)
+#4 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Actions\\\\Gra...')
+#5 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#6 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#7 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 /Users/rigby/repos/mongo-db-learning/public/index.php(5): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2026-06-11 20:48:19] production.ERROR: Target class [App\Actions\TestingAction] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Actions\\TestingAction] does not exist. at /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php:914)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(795): Illuminate\\Container\\Container->build('App\\\\Actions\\\\Tes...')
+#1 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Actions\\\\Tes...', Array)
+#2 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Application.php(327): Illuminate\\Container\\Container->make('App\\\\Actions\\\\Tes...', Array)
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Actions\\\\Tes...')
+#4 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#5 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#6 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#7 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#8 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#10 /Users/rigby/repos/mongo-db-learning/public/index.php(5): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Actions\\TestingAction\" does not exist at /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php:912)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(912): ReflectionClass->__construct('App\\\\Actions\\\\Tes...')
+#1 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(795): Illuminate\\Container\\Container->build('App\\\\Actions\\\\Tes...')
+#2 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Actions\\\\Tes...', Array)
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Application.php(327): Illuminate\\Container\\Container->make('App\\\\Actions\\\\Tes...', Array)
+#4 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Actions\\\\Tes...')
+#5 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#6 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#7 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 /Users/rigby/repos/mongo-db-learning/public/index.php(5): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2026-06-11 20:51:25] production.ERROR: Target class [App\Actions\TestingAction] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Actions\\TestingAction] does not exist. at /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php:914)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(795): Illuminate\\Container\\Container->build('App\\\\Actions\\\\Tes...')
+#1 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Actions\\\\Tes...', Array)
+#2 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Application.php(327): Illuminate\\Container\\Container->make('App\\\\Actions\\\\Tes...', Array)
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Actions\\\\Tes...')
+#4 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#5 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#6 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#7 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#8 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#10 Command line code(5): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Actions\\TestingAction\" does not exist at /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php:912)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(912): ReflectionClass->__construct('App\\\\Actions\\\\Tes...')
+#1 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(795): Illuminate\\Container\\Container->build('App\\\\Actions\\\\Tes...')
+#2 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Actions\\\\Tes...', Array)
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Application.php(327): Illuminate\\Container\\Container->make('App\\\\Actions\\\\Tes...', Array)
+#4 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Actions\\\\Tes...')
+#5 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#6 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#7 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 Command line code(5): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2026-06-11 20:51:47] local.ERROR: Target class [App\Actions\TestingAction] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Actions\\TestingAction] does not exist. at /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php:914)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(795): Illuminate\\Container\\Container->build('App\\\\Actions\\\\Tes...')
+#1 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Actions\\\\Tes...', Array)
+#2 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Application.php(327): Illuminate\\Container\\Container->make('App\\\\Actions\\\\Tes...', Array)
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Actions\\\\Tes...')
+#4 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#5 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#6 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#7 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#8 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#10 Command line code(9): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Actions\\TestingAction\" does not exist at /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php:912)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(912): ReflectionClass->__construct('App\\\\Actions\\\\Tes...')
+#1 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(795): Illuminate\\Container\\Container->build('App\\\\Actions\\\\Tes...')
+#2 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Actions\\\\Tes...', Array)
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Application.php(327): Illuminate\\Container\\Container->make('App\\\\Actions\\\\Tes...', Array)
+#4 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Actions\\\\Tes...')
+#5 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#6 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#7 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 Command line code(9): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2026-06-11 20:51:51] production.ERROR: Target class [App\Actions\TestingAction] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Actions\\TestingAction] does not exist. at /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php:914)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(795): Illuminate\\Container\\Container->build('App\\\\Actions\\\\Tes...')
+#1 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Actions\\\\Tes...', Array)
+#2 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Application.php(327): Illuminate\\Container\\Container->make('App\\\\Actions\\\\Tes...', Array)
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Actions\\\\Tes...')
+#4 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#5 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#6 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#7 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#8 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#10 Command line code(11): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Actions\\TestingAction\" does not exist at /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php:912)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(912): ReflectionClass->__construct('App\\\\Actions\\\\Tes...')
+#1 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(795): Illuminate\\Container\\Container->build('App\\\\Actions\\\\Tes...')
+#2 /Users/rigby/repos/mongo-db-learning/vendor/illuminate/container/Container.php(731): Illuminate\\Container\\Container->resolve('App\\\\Actions\\\\Tes...', Array)
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Application.php(327): Illuminate\\Container\\Container->make('App\\\\Actions\\\\Tes...', Array)
+#4 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->make('App\\\\Actions\\\\Tes...')
+#5 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(284): Laravel\\Lumen\\Application->callControllerAction(Array)
+#6 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(269): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#7 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 Command line code(11): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2026-06-11 22:13:02] production.ERROR:  {"exception":"[object] (Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException(code: 0):  at /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:235)
+[stacktrace]
+#0 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(174): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#1 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->{closure:Laravel\\Lumen\\Concerns\\RoutesRequests::dispatch():167}(Object(Laravel\\Lumen\\Http\\Request))
+#2 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(167): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#3 /Users/rigby/repos/mongo-db-learning/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#4 /Users/rigby/repos/mongo-db-learning/public/index.php(5): Laravel\\Lumen\\Application->run()
+#5 {main}
+"} 

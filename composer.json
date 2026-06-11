@@ -1,0 +1,20 @@
+{
+    "name": "soundwave/records-management",
+    "description": "SoundWave Records — Music Label Management System (MongoDB ODM demo)",
+    "type": "project",
+    "require": {
+        "php": "^8.4",
+        "doctrine/mongodb-odm": "^2.11",
+        "laravel/lumen-framework": "^10.0",
+        "mongodb/mongodb": "^2.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": ["src/", "app/"]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
