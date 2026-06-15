@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Document;
 
+use App\Repositories\ArtistRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
@@ -12,7 +13,7 @@ use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
  * Hub document — has 5 relationships:
  *   label, albums, genres, contracts, concerts
  */
-#[ODM\Document(collection: 'artists')]
+#[ODM\Document(collection: 'artists', repositoryClass: ArtistRepository::class)]
 class Artist
 {
     #[ODM\Id]

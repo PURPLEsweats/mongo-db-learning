@@ -4,11 +4,12 @@ declare(strict_types=1);
 
 namespace App\Document;
 
+use App\Repositories\ProducerRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 
-#[ODM\Document(collection: 'producers')]
+#[ODM\Document(collection: 'producers', repositoryClass: ProducerRepository::class)]
 class Producer
 {
     #[ODM\Id]

@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace App\Document;
 
+use App\Repositories\GenreRepository;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 
-#[ODM\Document(collection: 'genres')]
+#[ODM\Document(collection: 'genres', repositoryClass: GenreRepository::class)]
 class Genre
 {
     #[ODM\Id]

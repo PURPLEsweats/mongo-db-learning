@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace App\Document;
 
+use App\Repositories\ContractRepository;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 
-#[ODM\Document(collection: 'contracts')]
+#[ODM\Document(collection: 'contracts', repositoryClass: ContractRepository::class)]
 class Contract
 {
     #[ODM\Id]

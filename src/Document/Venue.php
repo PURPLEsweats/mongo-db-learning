@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace App\Document;
 
+use App\Repositories\VenueRepository;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 
-#[ODM\Document(collection: 'venues')]
+#[ODM\Document(collection: 'venues', repositoryClass: VenueRepository::class)]
 class Venue
 {
     #[ODM\Id]

@@ -4,9 +4,10 @@ declare(strict_types=1);
 
 namespace App\Document;
 
+use App\Repositories\ReviewRepository;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 
-#[ODM\Document(collection: 'reviews')]
+#[ODM\Document(collection: 'reviews', repositoryClass: ReviewRepository::class)]
 class Review
 {
     #[ODM\Id]

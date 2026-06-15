@@ -4,11 +4,12 @@ declare(strict_types=1);
 
 namespace App\Document;
 
+use App\Repositories\LabelRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
 
-#[ODM\Document(collection: 'labels')]
+#[ODM\Document(collection: 'labels', repositoryClass: LabelRepository::class)]
 class Label
 {
     #[ODM\Id]
