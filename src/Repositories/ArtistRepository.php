@@ -20,7 +20,7 @@ class ArtistRepository extends DocumentRepository
     }
 
     /** @return Artist[] */
-    public function getByCountry(string $country: array
+    public function getByCountry(string $country): array
     {
         return $this->findBy(['country' => $country], ['name' => 'ASC']);
     }
